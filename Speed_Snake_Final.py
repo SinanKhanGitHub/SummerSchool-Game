@@ -20,6 +20,7 @@ dark_green = (58,95,11)
 pastel_green = (137,232,148)
 black = (0,0,0)
 win = pygame.display.set_mode((width, width))
+pygame.display.set_caption('Sinans Speed Snake')  
 img_apple = pygame.transform.scale(pygame.image.load('apple_original.png'),((width//rows),(width//rows)))
 highscore = 0
 
@@ -208,7 +209,6 @@ def redrawWindow(surface):
     centered_txt2_screen('Score '+str(score)+'    '+'Highscore '+str(highscore), white, 2, size=medfont)
     s.draw(surface)
     surface.blit(img_apple, (rows * positions_snack[0],rows * positions_snack[1]))
-    pygame.display.set_caption('Sinans Snake Adventure')  
     pygame.display.update()
 
 
