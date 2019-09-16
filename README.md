@@ -1,4 +1,4 @@
-# Speed Snake!
+# Speed Snake (HSG Summer School)!
 
 You may require installing certain modules before starting
 
