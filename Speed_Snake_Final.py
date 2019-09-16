@@ -54,7 +54,6 @@ class cube(object):
             circleMiddle2 = (i*dis + dis -radius*2, j*dis+8)
             pygame.draw.circle(surface, yellow, circleMiddle, radius)
             pygame.draw.circle(surface, yellow, circleMiddle2, radius)
-            pygame.draw.line(surface, red, (i*dis+dis//3,j*dis+4*dis//5),(i*dis-dis//3,j*dis+4*dis//5))
         
 
 class snake(object):
