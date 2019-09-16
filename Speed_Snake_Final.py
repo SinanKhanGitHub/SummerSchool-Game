@@ -263,10 +263,10 @@ def randomSnack(rows, item):
 # Set of fonts used for all text displayed
 # I wanna clean this up so that it pulls the font out of a table
 
-smallfont = pygame.font.Font('OpenSans-Light.ttf', 25)
-medfont = pygame.font.Font("Roboto-ThinItalic.ttf", 50)
-largefont = pygame.font.Font("PlayfairDisplaySC-BoldItalic.otf", 75)
-bubblefont = pygame.font.Font("Bubblegum.ttf", 75)
+smallfont = pygame.font.Font('Fonts/OpenSans-Light.ttf', 25)
+medfont = pygame.font.Font("Fonts/Roboto-ThinItalic.ttf", 50)
+largefont = pygame.font.Font("Fonts/PlayfairDisplaySC-BoldItalic.otf", 75)
+bubblefont = pygame.font.Font("Fonts/Bubblegum.ttf", 75)
 
 
 def text_objects(text, color, size): # added font here
